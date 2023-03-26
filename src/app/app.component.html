@@ -1,0 +1,73 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>&nbsp;Logo</span>
+  <span class="example-spacer"></span>
+  <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+    <mat-icon>account_box</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>
+      
+      <span>Profile</span>
+    </button>
+   
+    <button mat-menu-item>
+     
+      <span>Logout</span>
+    </button>
+  </mat-menu>
+  
+ 
+</mat-toolbar>
+
+<mat-drawer-container class="example-container">
+  <mat-drawer class="m1" mode="side" opened>
+   
+   <h1 class="h"> 
+   &nbsp; <span class="material-icons">folder_open</span>
+    SetUp(only admin)</h1><br>
+    <h1 class = "h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <mat-icon>description</mat-icon>  Company</h1><br>
+    <h1 class = "h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <mat-icon>description</mat-icon> Location</h1><br>
+    <h1 class = "h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<mat-icon>description</mat-icon>
+       Division</h1><br>
+    <h1 class = "h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <mat-icon>description</mat-icon> Department</h1><br>
+    <h1 class = "h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <mat-icon>description</mat-icon> Users</h1><br>
+   
+      <h1 class="h"> &nbsp;
+        <mat-icon>receipt</mat-icon>
+         Budgets</h1><br>
+        <h1 class = "h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <mat-icon>description</mat-icon> Opex</h1><br>
+        <h1 class = "h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <mat-icon>description</mat-icon> Capex-Next Year</h1><br>
+        <h1 class = "h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<mat-icon>description</mat-icon>
+           Division</h1><br>
+        <h1 class = "h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <mat-icon>description</mat-icon> Capex-Current Year</h1><br>
+        <h1 class = "h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <mat-icon>description</mat-icon> Revenue</h1><br>
+
+          
+      <h1 class="h"> &nbsp;
+        <mat-icon>receipt</mat-icon>
+         Report</h1><br>
+  </mat-drawer>
+  <mat-drawer-content>
+    <div class ="divv">
+     
+    </div>
+   
+
+</mat-drawer-content>
+</mat-drawer-container>
+
+    
+ 
+
+

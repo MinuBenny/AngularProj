@@ -1,0 +1,36 @@
+.example-spacer {
+    flex: 1 1 auto;
+    height: 80px;
+  }
+  
+  
+ 
+ 
+  .example-container {
+    width: 1720px;
+    height: 850px;
+    margin: 1px;
+    border: 1px solid #555;
+  }
+
+  .m1
+  {
+    background-color:darkblue;
+    width: 350px;
+   
+}
+h1{
+    flex: 1 1 auto;
+    color: white;
+}
+
+.divv
+  {
+    border: 1px solid #777;
+    width: 1300px;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: #eeebeb;
+
+  }

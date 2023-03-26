@@ -1,0 +1,57 @@
+
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+    max-width: 600px;
+    background-color: darkblue;
+    color: white;
+    font-size: medium;
+  }
+  .button-row1 {
+    display: table-cell;
+    max-width: 600px;
+    background-color: white;
+    color: black;
+    font-size: medium;
+  }
+  
+  .example-button-row .mat-mdc-button-base {
+    margin: 8px 8px 8px 0;
+  }
+  .example-container {
+    width: 1700px;
+    height: 850px;
+    margin: 10px;
+    border: 1px solid #555;
+  }
+
+  .m1
+  {
+    background-color:darkblue;
+    width: 250px;
+   
+}
+h1{
+    flex: 1 1 auto;
+    color: white;
+}
+
+.example-spacer1
+{
+    background-color: #eeebeb;
+    border: 1px solid #eeebeb;
+    height: 50px;
+    width: 1420px;
+    margin-left: 10px;
+}
+.example-form{
+    margin-left: 10px;
+}
+.h2
+{
+    color: black;
+}
